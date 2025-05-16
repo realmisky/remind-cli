@@ -8,7 +8,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["cli", "reminder", "terminal", "notification"],
+  "keywords": [
+    "cli",
+    "reminder",
+    "terminal",
+    "notification"
+  ],
   "author": "Danu",
   "license": "MIT",
   "repository": {
@@ -20,6 +25,7 @@
   },
   "homepage": "https://github.com/realmisky/remind-cli#readme",
   "dependencies": {
+    "chalk": "^5.4.1",
     "node-notifier": "^10.0.1",
     "yargs": "^17.7.2"
   }
