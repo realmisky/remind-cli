@@ -1,2 +1,21 @@
 # remind-cli
-A lightweight command-line tool to set local desktop reminders easily from your terminal. Schedule notifications with simple time formats like seconds (10s), minutes (5m), or hours (2h)—perfect for quick reminders while you work in the console.
+
+A simple CLI tool to schedule local reminders directly from your terminal.
+
+## Features
+
+- Schedule reminders using easy-to-understand time formats like `10s`, `5m`, or `2h`.
+- Get desktop notifications with your custom reminder messages.
+- Lightweight and simple to use from the command line.
+- Works on Windows, macOS, and Linux (requires Node.js).
+
+## Installation
+
+1. Clone the repo or download the source.
+2. Run `npm install` to install dependencies.
+3. (Optional) Run `npm link` to use `remind-cli` as a global command.
+
+## Usage
+
+```bash
+node index.js --time <time> --message "<your message>"
