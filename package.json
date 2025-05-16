@@ -1,6 +1,6 @@
 {
   "name": "remind-terminal-checkpoint-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple CLI to schedule local reminders via terminal.",
   "bin": {
     "remind-cli": "./index.js"
@@ -26,7 +26,9 @@
   "homepage": "https://github.com/realmisky/remind-cli#readme",
   "dependencies": {
     "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
     "node-notifier": "^10.0.1",
+    "ora": "^8.2.0",
     "yargs": "^17.7.2"
   }
 }
