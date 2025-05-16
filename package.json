@@ -1,6 +1,6 @@
 {
-  "name": "remind-cli",
-  "version": "1.0.0",
+  "name": "remind-terminal-checkpoint-cli",
+  "version": "1.0.1",
   "description": "A simple CLI to schedule local reminders via terminal.",
   "bin": {
     "remind-cli": "./index.js"
